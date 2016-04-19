@@ -1,0 +1,129 @@
+Absorb|grass|special|20|100|25||||||User recovers half the HP inflicted on opponent.
+Acid|poison|special|40|100|30|||special_defense|-1|10|May lower opponent's Special Defense.
+Acid Armor|poison|status|||20|||defense|2|100|Sharply raises user's Defense.
+Agility|psychic|status|||30|||speed|2|100|Sharply raises user's Speed.
+Amnesia|psychic|status|||20|||special_defense|2|100|Sharply raises user's Special Defense.
+Aurora Beam|ice|special|65|100|20|||attack|-1|10|May lower opponent's Attack.
+Barrage|normal|physical|15|85|20||||||Hits 2-5 times in one turn.
+Barrier|psychic|status|||20|||defense|2|100|Sharply raises user's Defense.
+Bite|normal|physical|60|100|25||||||May cause flinching.
+Blizzard|ice|special|110|70|5|s_frozen|10||||May freeze opponent.
+Body Slam|normal|physical|85|100|15|s_paralyzed|30||||May paralyze opponent.
+Bone Club|ground|physical|65|85|20||||||May cause flinching.
+Bonemerang|ground|physical|50|90|10||||||Hits twice in one turn.
+Bubble|water|special|40|100|30|||speed|-1|10|May lower opponent's Speed.
+Bubble Beam|water|special|65|100|20|||speed|-1|10|May lower opponent's Speed.
+Comet Punch|normal|physical|18|85|15||||||Hits 2-5 times in one turn.
+Confuse Ray|ghost|status||100|10|s_confused|100||||Confuses opponent.
+Confusion|psychic|special|50|100|25|s_confused|10||||May confuse opponent.
+Constrict|normal|physical|10|100|35|||speed|-1|10|May lower opponent's Speed by one stage.
+Crabhammer|water|physical|100|90|10||||||High critical hit ratio.
+Cut|normal|physical|50|95|30||||||Damages opponent.
+Defense Curl|normal|status|||40|||defense|1|100|Raises user's Defense.
+Dig|ground|physical|80|100|10||||||Digs underground on first turn, attacks on second. Can also escape from caves.
+Dizzy Punch|normal|physical|70|100|10|s_confused|20||||May confuse opponent.
+Double Kick|fighting|physical|30|100|30||||||Hits twice in one turn.
+Double Slap|normal|physical|15|85|10||||||Hits 2-5 times in one turn.
+Double-Edge|normal|physical|120|100|15||||||User receives recoil damage.
+Dragon Rage|dragon|special||100|10||||||Always inflicts 40 HP.
+Dream Eater|psychic|special|100|100|15||||||User recovers half the HP inflicted on a sleeping opponent.
+Drill Peck|flying|physical|80|100|20||||||Damages opponent.
+Earthquake|ground|physical|100|100|10||||||Power is doubled if opponent is underground from using Dig.
+Egg Bomb|normal|physical|100|75|10||||||Damages opponent.
+Ember|fire|special|40|100|25|s_burned|10||||May burn opponent.
+Fire Blast|fire|special|110|85|5|s_burned|10||||May burn opponent.
+Fire Punch|fire|physical|75|100|15|s_burned|10||||May burn opponent.
+Flamethrower|fire|special|90|100|15|s_burned|10||||May burn opponent.
+Fly|flying|physical|90|95|15||||||Flies up on first turn, attacks on second turn.
+Focus Energy|normal|status|||30|||crit|2|100|Increases critical hit ratio.
+Fury Attack|normal|physical|15|85|20||||||Hits 2-5 times in one turn.
+Fury Swipes|normal|physical|18|80|15||||||Hits 2-5 times in one turn.
+Glare|normal|status||100|30|s_paralyzed|100||||Paralyzes opponent.
+Growl|normal|status||100|40|||attack|-1|100|Lowers opponent's Attack.
+Growth|normal|status|||40|||special_attack|1|100|Raises user's Special Attack.
+Gust|flying|special|40|100|35||||||Hits Pokémon using Fly/Bounce with double power.
+Harden|normal|status|||30|||defense|1|100|Raises user's Defense.
+Haze|ice|status|||30||||||Resets all stat changes.
+Headbutt|normal|physical|70|100|15||||||May cause flinching.
+High Jump Kick|fighting|physical|130|90|10||||||If it misses, the user loses half their HP.
+Horn Attack|normal|physical|65|100|25||||||Damages opponent.
+Hydro Pump|water|special|110|80|5||||||Damages opponent.
+Hyper Beam|normal|special|150|90|5||||||User must recharge next turn.
+Hyper Fang|normal|physical|80|90|15||||||May cause flinching.
+Hypnosis|psychic|status||60|20|s_sleeping|100||||Puts opponent to sleep.
+Ice Beam|ice|special|90|100|10|s_frozen|10||||May freeze opponent.
+Ice Punch|ice|physical|75|100|15|s_frozen|10||||May freeze opponent.
+Jump Kick|fighting|physical|100|95|10||||||If it misses, the user loses half their HP.
+Karate Chop|fighting|physical|50|100|25||||||High critical hit ratio.
+Leech Life|bug|physical|20|100|15||||||User recovers half the HP inflicted on opponent.
+Leer|normal|status||100|30|||defense|-1|100|Lowers opponent's Defense.
+Lick|ghost|physical|30|100|30|s_paralyzed|30||||May paralyze opponent.
+Lovely Kiss|normal|status||75|10|s_sleeping|100||||Puts opponent to sleep.
+Meditate|psychic|status|||40|||attack|1|100|Raises user's Attack.
+Mega Drain|grass|special|40|100|15||||||User recovers half the HP inflicted on opponent.
+Mega Kick|normal|physical|120|75|5||||||Damages opponent.
+Mega Punch|normal|physical|80|85|20||||||Damages opponent.
+Metronome|normal|god|||10||||||User performs any move in the game at random.
+Mimic|normal|god|||10||||||Copies the opponent's last move.
+Mirror Move|flying|god|||20||||||User performs the opponent's last move.
+Night Shade|ghost|special||100|15||||||Inflicts damage equal to user's level.
+Peck|flying|physical|35|100|35||||||Damages opponent.
+Pin Missile|bug|physical|25|95|20||||||Hits 2-5 times in one turn.
+Poison Gas|poison|status||90|40|s_poisoned|100||||Poisons opponent.
+Poison Powder|poison|status||75|35|s_poisoned|100||||Poisons opponent.
+Poison Sting|poison|physical|15|100|35|s_poisoned|30||||May poison the opponent.
+Pound|normal|physical|40|100|35||||||Damages opponent.
+Psybeam|psychic|special|65|100|20|s_confused|10||||May confuse opponent.
+Psychic|psychic|special|90|100|10|||special_defense|-1|10|May lower opponent's Special Defense.
+Psywave|psychic|special||80|15||||||Inflicts damage 50-150% of user's level.
+Quick Attack|normal|physical|40|100|30||||||User attacks first.
+Razor Leaf|grass|physical|55|95|25||||||High critical hit ratio.
+Razor Wind|normal|special|80|100|10||||||Charges on first turn, attacks on second. High critical hit ratio.
+Recover|normal|status|||10||||||User recovers half its max HP.
+Rock Slide|rock|physical|75|90|10||||||May cause flinching.
+Rock Throw|rock|physical|50|90|15||||||Damages opponent.
+Rolling Kick|fighting|physical|60|85|15||||||May cause flinching.
+Scratch|normal|physical|40|100|35||||||Damages opponent.
+Screech|normal|status||85|40|||defense|-2|100|Sharply lowers opponent's Defense.
+Seismic Toss|fighting|physical||100|20||||||Inflicts damage equal to user's level.
+Sharpen|normal|status|||30|||attack|1|100|Raises user's Attack.
+Sing|normal|status||55|15|s_sleeping|100||||Puts opponent to sleep.
+Skull Bash|normal|physical|130|100|10||||||Raises Defense on first turn, attacks on second.
+Sky Attack|flying|physical|140|90|5||||||Charges on first turn, attacks on second. May cause flinching.
+Slam|normal|physical|80|75|20||||||Damages opponent.
+Slash|normal|physical|70|100|20||||||High critical hit ratio.
+Sleep Powder|grass|status||75|15|s_sleeping|100||||Puts opponent to sleep.
+Sludge|poison|special|65|100|20|s_poisoned|30||||May poison opponent.
+Smog|poison|special|30|70|20|s_poisoned|40||||May poison opponent.
+SoftBoiled|normal|status|||10||||||User recovers half its max HP.
+Solar Beam|grass|special|120|100|10||||||Charges on first turn, attacks on second.
+Sonic Boom|normal|special||90|20||||||Always inflicts 20 HP.
+Spike Cannon|normal|physical|20|100|15||||||Hits 2-5 times in one turn.
+Spore|grass|status||100|15|s_sleeping|100||||Puts opponent to sleep.
+Stomp|normal|physical|65|100|20||||||May cause flinching.
+Strength|normal|physical|80|100|15||||||Damages opponent.
+String Shot|bug|status||95|40|||speed|-2|100|Sharply lowers opponent's Speed.
+Stun Spore|grass|status||75|30|s_paralyzed|100||||Paralyzes opponent.
+Submission|fighting|physical|80|80|25||||||User receives recoil damage.
+Super Fang|normal|physical||90|10||||||Always takes off half of the opponent's HP.
+Supersonic|normal|status||55|20|s_confused|100||||Confuses opponent.
+Surf|water|special|90|100|15||||||Hits all adjacent Pokémon.
+Swift|normal|special|60|100|20||||||Ignores Accuracy and Evasiveness.
+Swords Dance|normal|status|||20|||attack|2|100|Sharply raises user's Attack.
+Tackle|normal|physical|50|100|35||||||Damages opponent.
+Tail Whip|normal|status||100|30|||defense|-1|100|Lowers opponent's Defense.
+Take Down|normal|physical|90|85|20||||||User receives recoil damage.
+Thunder|electric|special|110|70|10|s_paralyzed|30||||May paralyze opponent.
+Thunder Punch|electric|physical|75|100|15|s_paralyzed|10||||May paralyze opponent.
+Thunder Shock|electric|special|40|100|30|s_paralyzed|10||||May paralyze opponent.
+Thunder Wave|electric|status||100|20|s_paralyzed|100||||Paralyzes opponent.
+Thunderbolt|electric|special|90|100|15|s_paralyzed|10||||May paralyze opponent.
+Transform|normal|status|||10||||||User takes on the form and attacks of the opponent.
+Tri Attack|normal|special|80|100|10||||||May paralyze, burn or freeze opponent.
+Twineedle|bug|physical|25|100|20|s_poisoned|20||||Hits twice in one turn. May poison opponent.
+Vice Grip|normal|physical|55|100|30||||||Damages opponent.
+Vine Whip|grass|physical|45|100|25||||||Damages opponent.
+Water Gun|water|special|40|100|25||||||Damages opponent.
+Waterfall|water|physical|80|100|15||||||May cause flinching.
+Wing Attack|flying|physical|60|100|35||||||Damages opponent.
+Withdraw|water|status|||40|||defense|1|100|Raises user's Defense.

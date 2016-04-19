@@ -1,0 +1,193 @@
+BURN
+-1/8 Max HP per turn at end of turn
+Half base damage for physical attacks
+does not go away on its own
+
+
+POISON
+-1/8 Max HP per turn at end of turn
+does not go away on its own
+
+
+SLEEP
+last 1-3 turns (roll turn amount when applied) -- "status_effect_duration" on the Pokemon object for SE that last for a determined duration
+cannot attack while asleep
+
+
+FREEZE
+20% chance of unfreezing every turn
+cannot attack while frozen
+
+
+CONFUSION
+50% chance to attack self with typeless, 40 base damage, physical attack, without possibility of crit.
+last 1-4 turns (roll turn amount when applied)
+Pokemon using solar beam can hurt self while charging or while using attack
+
+
+FLINCH
+A defending Pokemon only flinches if the attacking pokemon went first and used a move that caused flinching
+15% all
+Bite
+Bone Club
+Headbutt
+Hyper Fang
+Rock Slide
+Rolling Kick
+Sky Attack
+Stomp
+Waterfall
+
+RECOIL
+-If miss
+High Jump Kick			50% life on miss
+Jump Kick				50% life on miss
+
+Take Down				User receives 1/4 of damage dealt as recoil damage.
+Double-Edge				User receives 1/3 of damage dealt as recoil damage.
+Submission				User receives 1/4 of damage dealt as recoil damage.
+
+SUPER FANG
+HAZE
+
+STATIC DAMAGE
+-Type effectivity can only be 0 or 1
+-cannot be super effective or not very effective, but can have no effect (0 damage).
+Sonic Boom      20
+Seismic Toss    User Level
+Dragon Rage     40
+Night Shade     User Level
+Psywave			50-150% User level
+
+
+Healing
+-Cannot heal beyond max HP
+-Damaging moves
+Mega Drain                              50% of damage dealt
+Absorb                                  50% of damage dealt
+Leech Life                              50% of damage dealt
+Dream Eater (when opponent is asleep)   50% of damage dealt
+-Nondamaging moves
+Recover                                 50% of user MAX HP
+Softboiled                              50% of user MAX HP
+
+
+
+
+1 VS 1
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Store pokemon that are super effective to enemy
+
+Remove pokemon who are weak to one of enemy's types
+
+if enemy high attack
+    remove pokemon low defense
+else if enemy high sp attack
+    remove pokemon low sp defense
+else
+    remove pokemon with lowest total stats
+    
+Store pokemon from list with two type advantages or more to opponent
+--ie. Charizard has 4 type advantages over Parasect. Flying > Bug and Grass, Fire > Bug and Grass
+
+if enemy high special defense
+    remove pokemon with high special attack
+if enemy high defense
+    remove pokemon with high attack
+else
+    keep only pokemon with highest amount of type adavantages
+    
+Select Pokemon with best total stats from remaining
+
+
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+//    Get Enemy Pokemon Types
+//        If Exists Type 4x strong
+//            list = 4x types
+//        Else If exists Type 2x strong
+//            list = 2x types
+//        Else ..
+//            list = 1x types
+//        Else ..
+//            list = others.
+//            
+//        Remove types weak to enemy type(s)
+//        
+//    Get Enemy Def & SpDef
+//        If Def < SpDef
+//            list-= (Pokemon Greater ATK)
+//        Else If SpDef >
+//            list-= (Pokemon Greater SpATK)
+//        Else
+//            Nothing
+//                
+//    Select from moves best moves
+//    
+//    Use pokemon from list with best moves
+//    
+//    If ties or close to ties
+//        Select Pokemon with Greatest speed > than enemy pokemon
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+X VS X
+
+Do 1v1 for each of the X pokemon except do not do last line.
+Combine all 6 lists.
+Combine stats of all enemy pokemon and count types.
+Play round robin with all combos.
+-when selecting a pokemon, 
+--rmv attack from enemy spdef pool
+--rmv spattack from enemy def pool
+--rmv def from enemy attack pool
+--rmv spdef from enemy spattack pool
+--decrement enemy types weak to our pokemon's type by 1.
+-Which ever grouping has enemy pool with closest values to 0 and closest values to each other we pick.
+
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------    
+----------------------------------------------------------------
+----------------------------------------------------------------
+Selecting attacks.
+
+-If my Attack > my spAttack, Select from attacks physical first for each line
+-else if my Attack > my spAttack, Select from attacks special first for each line
+-else select evenly from pool. 2 moves physical, 2 moves special
+--Select 1 attack of each of given pokemon's types. (1-2 moves)
+--Select 1 buff that is most effective
+---Sharpley incr stat buffs > than reg inc stat buffs
+---Moves that buff self > moves that debuff enemy
+---Onix has high def and reg attack, harden is more valuable to onix than screech
+--Select 1 attack super effective against pokemon that have a type advantage over given pokemon (1-2)
+
+Determining value of buff/debuff.
+-debuff act as buff to self, but opposite stat (atk debuf = def buf)
+-weight amount it would increase a stat. This is the value of the buff.
+-compare the weights of each buff to determin which one to give.
+
+Test each set against all 6 enemy pokemon, 1v1.
+Keep the one that won most often
+-keep the one that you took least damage with in event of ties.
+-keep the one that you did most damage with in event of ties.
