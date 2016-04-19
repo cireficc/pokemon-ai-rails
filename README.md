@@ -15,6 +15,12 @@ moves against the other Pokemon as a normal human being would - thus, *some* RNG
 the candidate Pokemon and their moves are almost entirely consistent, as RNG plays only a small
 part in the AI's decision-making.
 
+This would be a good agent to get started against a human player; essentially, using our methods
+a human would choose a Pokemon (or team), and the agent would choose the best counter-Pokemon to
+the human's, making the human's job defeating the AI's team difficult. We could further the results
+found with our algorithm using an artificial neural network to more consistently and accurately
+choose the moves used during the battle, to further challenge the human player.
+
 # Install Prelude
 
 We developed this project on Cloud9, a free web IDE service. Because the workspaces are Ubuntu
